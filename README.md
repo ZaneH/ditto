@@ -1,6 +1,6 @@
 # worksheet-kit
 
-Reusable components for self-guided math worksheets in Typst.
+Reusable components for guided worksheets in Typst. Built for my [math-work](https://github.com/ZaneH/math-work) repo.
 
 ```typ
 #import "@preview/worksheet-kit:0.1.0": *
@@ -18,6 +18,12 @@ Reusable components for self-guided math worksheets in Typst.
 | `#problem[...]` | Auto-numbered practice problem |
 | `#workspace(lines, title)` | Ruled space for working by hand. Defaults: 5 lines, "Try it yourself:" |
 | `#blanks(width)` | Inline fill-in-the-blank, e.g. `#blanks(2cm)` |
-| `#nobreak[...]` | Non-breakable block helper |
+| `#nobreak[...]` | Ensure related content stays together |
 
-See `sample.typ` for a full working example.
+## Build Sample
+
+See `sample.typ` for a full working example. To compile the sample, run this in the package root:
+
+```sh
+$ typst compile --root . examples/sample.typ
+```

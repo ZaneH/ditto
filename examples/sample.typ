@@ -57,13 +57,9 @@
 #v(4pt)
 
 // ── opening description ───────────────────────────────────────────────────
-// A sentence or two on the purpose of this worksheet, a motivating idea,
-// or a fun fact about the topic. Not a summary of the contents.
-// The last sentence should always be:
-// "Generative AI was used in the creation of this document."
 
 #emph[
-  Opening description goes here. Generative AI was used in the creation of this document.
+  Opening description goes here.
 ]
 
 #v(8pt)
@@ -86,8 +82,6 @@
 
 // ── stepbox ───────────────────────────────────────────────────────────────
 // For: a worked derivation. Title names the move, not the result.
-// Use [] not "" for the title whenever it contains math.
-// Use aligned equations (with & and \\) for sequential steps.
 
 #stepbox([Divide both sides by $cos^2(theta)$])[
   Starting from $sin^2(theta) + cos^2(theta) = 1$, divide every term by $cos^2(theta)$:
@@ -115,8 +109,7 @@
 #workspace(lines: 8, title: [Now derive $1 + cot^2(theta) = csc^2(theta)$ the same way.])
 
 // ── problems ──────────────────────────────────────────────────────────────
-// Auto-numbered. Order from accessible to challenging — hardest should not
-// be first. Use #hint[] after a problem when a nudge is warranted.
+// Auto-numbered. Reset with #problem-counter.update(0) if needed.
 
 = Practice Problems
 
@@ -125,7 +118,7 @@
 ]
 
 // ── nobreak ───────────────────────────────────────────────────────────────
-// Ensures that related content stays on the same page.
+// For: ensuring that related content stays on the same page.
 #nobreak[
 #problem[
   A problem requiring two or three steps.
