@@ -1,5 +1,4 @@
-// worksheet-kit — reusable components for self-guided math worksheets
-// Usage: #import "@preview/worksheet-kit:0.1.0": *
+// ditto — reusable components for guided worksheets
 
 // ── colors ─────────────────────────────────────────────────────────────────
 

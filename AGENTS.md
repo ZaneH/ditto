@@ -59,7 +59,7 @@ Every worksheet must include:
 - The worksheet should be something the student would feel comfortable sharing publicly.
 
 **Typst conventions**
-- The import line is `#import "@preview/worksheet-kit:0.1.0": *`.
+- The import line is `#import "@preview/ditto:0.1.0": *`.
 - Use the custom package for all standard components. Do not redefine components that already exist in the package.
 - Use `[]` not `""` for any component title that contains math.
 - Use aligned equations (`&=` with `\\`) for sequential derivation steps rather than separate unaligned equations.

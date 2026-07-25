@@ -1,9 +1,9 @@
-# worksheet-kit
+# ditto
 
 Reusable components for guided worksheets in Typst. Built for my [math-work](https://github.com/ZaneH/math-work) repo.
 
 ```typ
-#import "@preview/worksheet-kit:0.1.0": *
+#import "@preview/ditto:0.1.0": *
 ```
 
 ## Components
@@ -20,10 +20,16 @@ Reusable components for guided worksheets in Typst. Built for my [math-work](htt
 | `#blanks(width)` | Inline fill-in-the-blank, e.g. `#blanks(2cm)` |
 | `#nobreak[...]` | Ensure related content stays together |
 
-## Build Sample
+## Sample
 
-See `sample.typ` for a full working example. To compile the sample, run this in the package root:
+See `sample.typ` for a full working example. The sample file includes optional style rules defined at the top. To
+compile the sample, run this in the package root:
 
 ```sh
 $ typst compile --root . examples/sample.typ
 ```
+
+## Agentic Workflow
+
+See `AGENTS.md` for my system prompt and customize it to your liking. In the initial prompt, it is useful to include the
+contents of `examples/sample.typ`. I'm using Claude Projects to organize everything.

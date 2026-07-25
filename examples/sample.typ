@@ -1,5 +1,4 @@
 // Sample document — exercises every component in lib.typ.
-// Compile with: typst compile sample.typ
 
 #import "/src/lib.typ": *
 
