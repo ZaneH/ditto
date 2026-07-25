@@ -123,3 +123,11 @@
   box(width: space, stroke: (bottom: 0.5pt))
 }
 
+/// Prevent a section from breaking across pages while preserving
+/// the full text width so display equations remain centered.
+#let nobreak(body) = block(
+  breakable: false,
+  width: 100%,
+)[
+  #body
+]

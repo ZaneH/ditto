@@ -124,12 +124,18 @@
   A straightforward problem to build confidence.
 ]
 
+// ── nobreak ───────────────────────────────────────────────────────────────
+// Ensures that related content stays on the same page.
+#nobreak[
 #problem[
   A problem requiring two or three steps.
 ]
 
 #hint[
   Try rewriting $cot^2(x)$ using the identity you just proved.
+]
+
+#workspace(lines: 5, title: "")
 ]
 
 #problem[
